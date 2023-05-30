@@ -1,0 +1,25 @@
+.navdiv1{
+    height: 23vh;
+}
+.navdiv121>ul>li{
+    height: 5vh !important;
+}
+.navdiv12{
+    height: 5vh !important;
+}
+.navdiv121>ul>li>a{
+    text-decoration: none;
+}
+.navdiv121>ul>li:first-child{
+    background-color: #CC0000 !important;
+}
+.navdiv121>ul>li:first-child>a{
+    color: white !important;
+    font-weight: bold;
+}
+.navdiv121>ul>li>a{
+    color: black !important;
+}
+a{
+    text-decoration: none;
+}

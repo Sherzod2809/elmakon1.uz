@@ -1,13 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import HomepageHeader from './pages/homepage/homepageHeader';
+import HomepageFooter from './pages/homepage/homepageFooter';
+import HomepageMain from './pages/homepage/homepageMain';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
+
+
+// export function App(){
+//   <BrowserRouter>
+//            <Routes>
+//                 <Route  path='/home' element={<HomepageHeader/>} />
+//            </Routes>
+// </BrowserRouter>
+// }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <HomepageHeader/>
+     <HomepageMain/>
+     <HomepageFooter/>
+     {/* <BrowserRouter>
+        <App/>
+     </BrowserRouter> */}
+    
   </React.StrictMode>
 );
 
